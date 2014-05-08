@@ -1,0 +1,21 @@
+
+
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner ">
+              <h3 class="masthead-brand">Gyantrips <sub style="font-size:12px;">"The Knowledge Fair"</sub></h3>
+<div class="container">
+  <h1>Thank you for Registering.</h1>
+  <p>We'll get back to you soon.</p>
+  <span class="glyphicon glyphicon-chevron-left"><%= link_to "Go back ",root_path %></span>
+</div>
+            </div>
+             
+          </div>
+       </div>
+    </div>
+</div>
