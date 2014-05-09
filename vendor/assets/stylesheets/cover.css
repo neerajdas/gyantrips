@@ -210,6 +210,8 @@ body {
         height:100px;
         background:url(https://raw.githubusercontent.com/inkgab/gyantrips/master/app/assets/images/venue.png);
         background-size:700px auto;
+        background-size:700px auto;
+        background-repeat:no-repeat;
        
 }
 .third{
