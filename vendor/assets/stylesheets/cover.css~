@@ -163,16 +163,54 @@ body {
 }
 
 .first{
+        margin-top:80px;
  	padding-top:250px;
         padding-bottom:300px;
         height:100px;
-       
+        background:url(http://www.severnbusinesscollege.com/images/banner1.png);
+        
+        background-size:700px auto;
+        background-repeat:no-repeat;
+        
+        
+        
+
+    -moz-box-shadow: 2px 1px 14px #000000;
+    -webkit-box-shadow: 2px 1px 14px #000000;
+    box-shadow: 2px 1px 14px #000000;
+
+
+        
+        background-position:center center;
+
+
+        
+
+    border:outset 1px #000000;
+    -moz-border-radius-topleft: 24px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:75px;
+    -webkit-border-top-left-radius:24px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:75px;
+    border-top-left-radius:24px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:75px;
+
+
+
 
 }
 .second{
 	padding-top:250px;
         padding-bottom:300px;
         height:100px;
+        background:url(http://www.nvsaa.org/clientuploads/educationaldinnerevents/EducationTiles.gif);
+        background-size:700px auto;
+       
 }
 .third{
       padding-top:250px;
@@ -282,6 +320,6 @@ background: rgba(215, 40, 40, 0.9);
     width:100%;
     height:100%;
     z-index:-1;
-    background:url(http://stephenmuscat.com/twilli_air/assets/images/theme_images/background-image-overlay.png) repeat;
+    background:url(https://raw.githubusercontent.com/inkgab/gyantrips/master/app/assets/images/bg_overlay.png) repeat;
 }
 
