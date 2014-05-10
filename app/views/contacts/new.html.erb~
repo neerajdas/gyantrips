@@ -33,7 +33,7 @@
 
          <div class="inner cover block">
          <div class="second" id="venue">
-            <h1 class="cover-heading">Venue</h1>
+            <h1 class="">Venue</h1>
             <p class="lead">Here comes the Venue address</p>
             
           </div>
