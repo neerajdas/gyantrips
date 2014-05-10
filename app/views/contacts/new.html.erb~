@@ -24,17 +24,18 @@
           </div>
 
           <div class="inner cover first">
-            <h1 class="cover-heading">Gyantrips Knowledge Fair.</h1>
-            <p class="lead" style="background-color:rgba(34, 44, 44, 0.7);">We care for what you deserve.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default" data-toggle="modal" data-target="#register">Register now</a>
-            </p>
+           <%= render 'home' %>
           </div>
 
          <div class="inner cover block">
          <div class="second" id="venue">
-            <h1 class="">Venue</h1>
-            <p class="lead">Here comes the Venue address</p>
+            <h1 class="cover-heading">Venue</h1>
+            <p class="lead"><address>
+  <strong>District Library Auditorium.</strong><br>
+  Circuit House Road,Silchar<br>
+  Assam, India 788001<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address></p>
             
           </div>
          </div>
@@ -42,14 +43,26 @@
         <div class="inner cover block">
          <div class="third" id="schedule">
             <h1 class="cover-heading">Schedule</h1>
-            <p class="lead">Here comes the Schedule</p>
+            <p class="lead"><ul class="nav nav-tabs nav-justified">
+  <li class="active"><a href="#1st" data-toggle="tab">24<sup>rth</sup> -May </a></li>
+  <li><a href="#2nd" data-toggle="tab">7<sup>th</sup> -June</a></li>
+  <li><a href="#3rd" data-toggle="tab">8<sup>th</sup> -June</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="1st">...</div>
+  <div class="tab-pane" id="2nd">...</div>
+  <div class="tab-pane" id="3rd">...</div>
+</div>
+</p>
             
           </div>
          </div>
         <div class="inner cover block">
          <div class="fourth" id="events">
             <h1 class="cover-heading">Events</h1>
-            <p class="lead">Here comes the Events</p>
+            <%= render 'events' %> 
             
           </div>
          </div>
