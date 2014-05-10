@@ -214,7 +214,7 @@ body {
       padding-top:250px;
       padding-bottom:300px;
       height:100px;
-      background:url(http://www.higherl.com/images/header-small-img.png);
+      background:url(https://raw.githubusercontent.com/inkgab/gyantrips/master/app/assets/images/schedule.png);
         background-size:700px 310px;
         
         background-repeat:no-repeat;
