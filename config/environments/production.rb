@@ -82,6 +82,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
+config.action_mailer.default_url_options = { :host => 'gyantrips.herokuapp.com' }
   config.active_record.dump_schema_after_migration = false
   config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
@@ -89,7 +90,7 @@ config.action_mailer.smtp_settings = {
   :port                 => 587,
   :domain               => 'gyantrips.com',
   :user_name            => 'keithar123@gmail.com',
-  :password             => 'Lotus_About',
+  :password             => 'Lotus_123',
   :authentication       => 'plain',
   :enable_starttls_auto => true  }
 
