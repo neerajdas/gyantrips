@@ -225,8 +225,8 @@ body {
 }
 .fourth{
       padding-top:180px;
-      padding-bottom:350px;
-      height:auto;
+      padding-bottom:850px;
+      height:200px;
 
 }
 
@@ -317,6 +317,7 @@ background: rgba(215, 40, 40, 0.9);
 }
 .pp{
 margin-left:20px;
+margin-top:20px;
 }
 
 .vertical{
