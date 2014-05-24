@@ -311,6 +311,15 @@ background: rgba(215, 40, 40, 0.9);
  color: #000;
 }
 
+.dd{
+  background-color:#fff;
+  
+}
+.pp{
+margin-left:20px;
+margin-top:20px;
+}
+
 .vertical{
    width:300px;
    
