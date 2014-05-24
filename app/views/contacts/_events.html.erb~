@@ -9,7 +9,7 @@
   </div>
 <hr>
  <a class="pull-left" href="#">
-    <%= image_tag('e1.png', :class => "media-object")%>
+    <%= image_tag('e4.png', :class => "media-object")%>
   </a>
   <div class="media-body">
     <h4 class="media-heading " align="left"><u>WORKSHOP FOR THE EXHIBITORS &THE STUDENTS</u></h4>
